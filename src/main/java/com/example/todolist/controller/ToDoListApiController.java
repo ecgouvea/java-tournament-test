@@ -28,10 +28,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class ToDoListApiController {
 
     @Autowired
-    private final ListService listService;
+    private final ListService listService = null;
 
     @Autowired
-    private final EntryService entryService;
+    private final EntryService entryService = null;
 
     /**
      * Returns available lists with code 200
